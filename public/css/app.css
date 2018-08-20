@@ -19763,3 +19763,11 @@ label.panel-block:hover {
   padding-right: 100px !important;
 }
 
+.side-menu {
+  position: fixed;
+  overflow-y: scroll;
+  width: 200px;
+  height: 100vh;
+  background-color: white;
+}
+

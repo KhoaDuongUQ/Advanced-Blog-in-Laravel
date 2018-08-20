@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Blog</title>
+    <title>Blog Management</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -24,6 +24,8 @@
     <div id="app">
 
       @include('_includes.nav.main')
+
+      @include('_includes.nav.manage')
 
       @yield('content')
 
