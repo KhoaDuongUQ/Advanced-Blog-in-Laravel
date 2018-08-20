@@ -6,10 +6,18 @@
 @import 'variables';
 
 // Font Awesome
-@import 'node_modules/font-awesome/scss/font-awesome';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import 'node_modules/@fortawesome/fontawesome-free/scss/solid';
 
 // Bulma
 @import 'node_modules/bulma/bulma';
 
 // Bulma Vue Modules
 @import 'node_modules/buefy/src/scss/buefy';
+
+// Custom SASS Pages
+@import 'overrides';
+@import 'helpers';
+@import 'styles';
